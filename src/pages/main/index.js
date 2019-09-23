@@ -10,7 +10,7 @@ class Main extends Component{
     loadProducts = async () => {
         const response = await api.get('/products')
 
-        console.log(response)
+        console.log(response.data.docs)
     }
     render(){
         return <h1>Hello Rocketseat</h1>
