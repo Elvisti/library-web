@@ -1,0 +1,15 @@
+/* setando os valores da página
+*  utilizando o  box-sizing: border-box para que o padding não aumente o width e o height dos elementos
+*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEE9BF;
+    color: #333;
+}
