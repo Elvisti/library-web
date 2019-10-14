@@ -24,13 +24,18 @@ class Main extends Component{
         const { products } = this.state
         return (
             <div className="product-list">
-               { products.map(product =>(
+               { products.map( product => ( // Sempre quando tiver chaves significa que irá conter código javascript
                     <article key={product._id}>
                         <strong>{product.title}</strong>
                         <p>{product.description}</p>
-                        <a href="#">Acessar</a>
+                        <a href ="www">Acessar</a>
                     </article>
                     ))}
+                    <div className="btn-pages">
+                        <button>Anterior</button>
+                        <button>Próximo</button>
+                        
+                    </div>
             </div>
         )
     }
