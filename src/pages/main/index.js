@@ -21,13 +21,11 @@ class Main extends Component{
     }
     render(){
       const {books} = this.state
-      var tableStyle = {
-        "border": "1px solid black"
-     };
+     
         return(
         <div className="book-list">
          <h1>Lista de Livros</h1>
-          <table style={tableStyle}>
+          <table className="book-table" >
                  <thead>
                     <tr>
                         <th>Título</th>

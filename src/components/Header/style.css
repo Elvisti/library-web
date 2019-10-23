@@ -1,13 +1,16 @@
 #main-header{
     width: 100%;
     height: 60px;
-    background-color: #EE4000;
+    text-transform: uppercase;
+    background-color: rgb(68, 67, 67);
     font-size: 18px;
-    color: #fff;
+    color: white;
     font-weight: bold;
+    padding-left: 12px;
     display: flex;
-    justify-content: center;
+    justify-content:right;
     align-items: center;
+    
 
 
 }

@@ -1,11 +1,12 @@
 import React from 'react'
 
+
 function Form(){
     return(
         <form>
             <div>
                 <label htmlFor="title"> Título</label>
-                <input name="title" type="text" id="title" required placeholder="Informe o Título..."></input>
+                <input name="title" type="text" id="title"  required placeholder="Informe o Título..."></input>
             </div>  
             <div>
                 <label htmlFor="author"> Autor</label>

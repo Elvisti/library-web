@@ -4,7 +4,7 @@ import './style.css'
 
 function Header (){
     return(
-        <header id="main-header">JSHunt</header>
+        <header id="main-header">Painel</header>
     )
 }
 
