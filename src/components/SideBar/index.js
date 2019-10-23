@@ -8,9 +8,9 @@ function SideBar(){
             <div className="sidebar">
                
                 <ul>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Cadastrar Livro</a></li>
-                    <li><a href="#">Consultar</a></li>
+                    <li><a href="#"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
+                    <li><a href="#"><i class="fas fa-book"></i>Cadastrar Livro</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i>Consultar</a></li>
                 </ul>
 
             </div>
