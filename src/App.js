@@ -1,10 +1,11 @@
 import React from 'react';
 
-import './styles.css'
+import './styles.css';
 
-import Header from './components/Header'
-import SideBar from './components/SideBar'
-import Main from './pages/Main'
+import Header from './components/Header';
+import SideBar from './components/SideBar';
+import Main from './pages/Main';
+import Footer from './components/Footer';
 
 function App () {
   return (
@@ -12,6 +13,7 @@ function App () {
       <Header />
       <SideBar />
       <Main />
+      <Footer />
     </div>
   );
 }
